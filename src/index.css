@@ -25,15 +25,15 @@ main {
   flex-direction: column;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   #bento {
     margin: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(/public/background.png);
-    background-size: cover;
-    width: 85vw;
-    height: calc(85vw/1500*918);
+    background: url(/public/background.png) no-repeat;
+    background-size: contain;
+    width: 1224px;
+    height: 750px;
   }
 }
