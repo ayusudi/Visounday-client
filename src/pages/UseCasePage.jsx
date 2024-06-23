@@ -19,25 +19,24 @@ export default function Page({ page }) {
             <p className='text-xl'>• <span className='font-bold text-xl'>Chat Interaction</span> : The user can continue to chat with Visounday for further interactions and recommendations.</p>
           </div>
         </div>
-        <div className='flex items-center xl:flex-row flex-col-reverse'>
-          <div className='flex-grow xl:flex-row'>
-            <div className='text-white flex flex-col gap-4 m-auto'>
-              <div className='text-white xl:w-[750px] max-w-[82%] flex flex-col gap-4 justify-start items-start m-auto'>
-                <p className='text-2xl font-bold mb-4 xl:text-start text-center'>VIDEO INDEXER ENCHANCER</p>
-                <div className='flex flex-col'>
-                  <p className='text-xl font-bold'>• Tag Generation</p>
-                  <p className='text-xl pl-2.5'>A list of tags is generated from the video using a video indexer</p>
+        <div class="flex items-center xl:flex-row flex-col-reverse">
+          <div class="flex-grow xl:flex-row">
+            <div class="text-white flex flex-col gap-4 m-auto">
+              <div class="text-white xl:w-[750px] max-w-[82%] flex flex-col gap-4 justify-start items-start m-auto">
+                <p class="text-2xl font-bold mb-4 xl:text-start text-center">VIDEO INDEXER ENCHANCER</p>
+                <div class="flex flex-col"><p class="text-xl font-bold">• Tag Generation</p>
+                  <p class="text-xl pl-2.5">A list of tags is generated from the video using a video indexer</p>
                 </div>
-                <div className='flex flex-col'>
-                  <p className='text-xl font-bold'>• Clipart Search</p>
-                  <p className='text-xl pl-2.5'>These tags are used to conduct a comprehensive search, providing a list of related clipart images.</p>
+                <div class="flex flex-col">
+                  <p class="text-xl font-bold">• Clipart Search</p>
+                  <p class="text-xl pl-2.5">These tags are used to conduct a comprehensive search, providing a list of related clipart images.</p>
                 </div>
-                <p className='text-xl my-4'>We utilize Video Indexer and Bing Search for Clipart Images.</p>
-                <p className='text-xl'>This feature is useful for users who are editing videos and are considering which images are relevant for hiding something or decorating.</p>
+                <p class="text-xl my-4">We utilize Video Indexer and Bing Search for Clipart Images.</p>
+                <p class="text-xl">This feature is useful for users who are editing videos and are considering which images are relevant for hiding something or decorating.</p>
               </div>
             </div>
           </div>
-          <img src="/indexer.png" className='mb-8' />
+          <img src="/indexer.png" class="mb-8" />
         </div>
       </div>
       <div className="py-10 bg-[#081431]">
