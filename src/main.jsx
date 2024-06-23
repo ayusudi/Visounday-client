@@ -35,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "use-case",
-        element: <UseCasePage />
+        element: <UseCasePage page="UseCasePage" />
       },
       {
         path: "terms-and-conditions",
@@ -55,6 +55,10 @@ const router = createBrowserRouter([
         path: "chat/:cloudinary_id",
         element: <ChatPage />,
         loader: checkAuth
+      },
+      {
+        path: "*",
+        element: <UseCasePage page="NotFoundPage" />
       }
     ]
   }

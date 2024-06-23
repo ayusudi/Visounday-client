@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import Footer from "../components/Footer";
-export default function Page() {
+export default function Page({ page }) {
+  console.log(page);
   return (
     <div id="dashboard">
-      <Header pageUseCase="true" />
+      <Header page={page} />
       <div className='w-full bg-[#081431] flex flex-col gap-5'>
         <div>
           <h1 className='font-main lg:text-[54px] text-[28px] text-center xl:pt-20 pt-10 text-white'>VINSOUNDAY FEATURE</h1>
