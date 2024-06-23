@@ -48,13 +48,14 @@ export default function Page() {
         {
           !loadPage && (<>
             <NavBar />
-            <div className="border border-1.5 border-[#d7e1f4] rounded-2xl  overflow-hidden flex w-full xl:flex-row-reverse flex-col-reverse">
-              <div className='w-full h-[72vh]'>
-                <div className='overflow-hidden bg-[#edf4ff] flex flex-col px-3 xl:px-10 pt-2 pb-4 overflow-y-scroll h-full'>
+            <div className="h-[75vh] bg-[#edf4ff] border border-1.5 border-[#d7e1f4] rounded-2xl  overflow-hidden flex w-full xl:flex-row flex-col">
+
+              <ContainerIndexer url={state.url} tags={state.tags} cloudinaryId={state.cloudinaryId} />
+              <div className='w-full '>
+                <div className=' flex flex-col px-3 xl:px-10 pt-2 pb-4 overflow-y-scroll h-full'>
                   {state.tagImages.map(({ keyword, urls }) => <ContainerTagImage key={keyword} keyword={keyword} urls={urls} />)}
                 </div>
               </div>
-              <ContainerIndexer url={state.url} tags={state.tags} cloudinaryId={state.cloudinaryId} />
             </div>
           </>
           )

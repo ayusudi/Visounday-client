@@ -9,9 +9,7 @@
 
 ### Public URL Access
 
-[https://visounday.ayusudi.me](https://visounday.ayusudi.me)
-[https://visounday.vercel.app](https://visounday.vercel.app)
-
+[https://visounday-ai.azurewebsites.net](https://visounday-ai.azurewebsites.net)
 
 ### Technology Stack Used 
 
@@ -31,23 +29,25 @@
 ### Screenshots 
 
 - Landing Page 
-![landingPage](./screenshots/landingPage.png)
+![landingPage](./screenshots/landingPage.webp)
 - Use Case Page 
-![useCasePage](./screenshots/useCasePage.png) 
+![useCasePage](./screenshots/useCasePage.webp) 
 - Terms & Conditions Page
-![tnc](./screenshots/tnc.png)
+![tnc](./screenshots/tnc.webp)
 - Dashboard Page 
-![dashboard](./screenshots/dashboard.png)
+![dashboard](./screenshots/dashboard.webp)
 - Chat Page 
-![chat](./screenshots/chat.png)
+![chat](./screenshots/chat.webp)
 - Video Indexer Enhancer Page
-![video](./screenshots/enhancer.png)
+![video](./screenshots/enhancer.webp)
 - Not Found Page
-![notfound](./screenshots/notfoundPage.png)
+![notfound](./screenshots/notfoundPage.webp)
 
 ### How to Run the Application
 
 > Note: You will be unable to run this application unless you have Cloudinary and Microsoft authentication via Firebase. You must modify the code that interacts with the API as necessary.
+
+**Check Dockerfile or run this way and .yml :**
 
 1. Git clone this repository 
 2. Open terminal 

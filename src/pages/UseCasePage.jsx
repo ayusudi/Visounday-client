@@ -2,14 +2,13 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from "../components/Footer";
 export default function Page({ page }) {
-  console.log(page);
   return (
-    <div id="dashboard">
+    <div id="dashboard" className='overflow-hidden'>
       <Header page={page} />
       <div className='w-full bg-[#081431] flex flex-col gap-5'>
         <div>
           <h1 className='font-main lg:text-[54px] text-[28px] text-center xl:pt-20 pt-10 text-white'>VINSOUNDAY FEATURE</h1>
-          <img src="/chats.png" className='m-auto xl:w-[75%] w-auto object-cover min-h-[340px]' />
+          <img src="/chats.webp" className='m-auto xl:w-[75%] w-auto object-cover min-h-[340px]' />
           <div className='text-white w-[900px] max-w-[80%] flex flex-col gap-4 justify-start items-start m-auto'>
             <p className='text-2xl font-bold mb-4'>AI CHAT TO ANALYZE VIDEO</p>
             <p className='text-xl'>• <span className='font-bold text-xl'>Frame Extraction</span> : We take a frame from the uploaded video.</p>
@@ -36,7 +35,10 @@ export default function Page({ page }) {
               </div>
             </div>
           </div>
-          <img src="/indexer.png" class="mb-8" />
+          <div>
+            <img src="/indexer.webp" class="mb-8  max-w-[85%] float-right xl:max-w-[720px]" />
+
+          </div>
         </div>
       </div>
       <div className="py-10 bg-[#081431]">

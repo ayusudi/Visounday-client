@@ -71,23 +71,25 @@ export default function Page() {
         <div className="flex flex-col gap-4">
           <button className="w-full rounded-2xl text-white bg-[#F78860]">
             <div className="flex justify-center items-center xl:gap-4 gap-2 px-2">
-              <img src="/heart.png" alt="heart" className="w-[10%]" />
-              <div className="flex flex-col py-2 xl:p-0">
+              <img src="/heart.webp" alt="heart" className="w-[10%]" />
+              <a href="https://instagram.com/airprogramming" className="flex flex-col py-2 xl:p-0">
                 <p className="text-left w-full text-[16px]"><b>Try & Share with Hashtag #VISOUNDAY</b></p>
                 <p className="text-left w-full">You can mention @airprogramming in IG & X</p>
-              </div>
+              </a>
             </div>
           </button>
-          <button onClick={() => navigate("/terms-and-conditions")} className="group w-full rounded-full bg-black hover:bg-[#0a0a0a] justify-center items-center "><p className="font-main text-white text-[14px] py-2">VISOUNDAY TERMS AND CONDITONS</p></button>
+          <button onClick={() => navigate("/terms-and-conditions")} className="group w-full rounded-full bg-black hover:bg-[#0a0a0a] justify-center items-center "><p className="font-main text-white text-[14px] py-2.5">VISOUNDAY TERMS AND CONDITONS</p></button>
           <a href="https://www.paypal.com/ncp/payment/AUYUQNKT3852S">
-            <button className=" w-full bg-gray  rounded-full hover:bg-graypay justify-center items-center flex gap-2 p-2">
+            <button className=" w-full bg-gray  rounded-full hover:bg-graypay justify-center items-center flex gap-2 px-2 py-2.5 flex-wrap">
               <p className="font-main m-0 p-0">Help Visounday Developer Pay a Cloud and API Bill Via</p>
-              <img src="/paypal.png" className="h-[15px]" />
+              <img src="/paypal.webp" className="h-[15px]" />
             </button>
           </a>
         </div>
       </div>
-      <Footer />
+      <div className="visible xl:invisible">
+        <Footer />
+      </div>
     </div>
   )
 }

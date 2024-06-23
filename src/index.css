@@ -13,7 +13,7 @@ body {
 }
 
 main {
-  background: url(/backgoundhome.png);
+  background: url(/backgoundhome.webp);
   min-height: 100vh;
   display: flex;
   justify-items: center;
@@ -27,13 +27,13 @@ main {
 }
 
 #dashboard {
-  background: url(/backgoundhome.png);
+  background: url(/backgoundhome.webp);
   min-height: 100vh;
   width: 100%;
 }
 
 #visounday-dashboard {
-  background: url(/backgrounddashboard.png) no-repeat;
+  background: url(/backgrounddashboard.webp) no-repeat;
   width: 100vw;
   height: calc(800/1920*100vw);
   background-size: cover;
@@ -41,7 +41,7 @@ main {
 }
 
 #sociallogin {
-  background: url(/pattern.png) no-repeat;
+  background: url(/pattern.webp) no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(/background.png) no-repeat;
+    background: url(/background.webp) no-repeat;
     background-size: contain;
     width: 1224px;
     height: 750px;

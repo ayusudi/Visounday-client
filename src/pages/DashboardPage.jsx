@@ -44,7 +44,7 @@ export default function Page() {
         {
           !onLoadPage && !list.length && (
             <div className='flex flex-col justify-center items-center m-auto pb-5'>
-              <img src="/noVideo.png" />
+              <img src="/noVideo.webp" />
               <p className='font-main text-2xl text-center'>NO VIDEO. UPLOAD & TRY IT NOW</p>
             </div>
           )

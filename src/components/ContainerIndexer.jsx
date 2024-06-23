@@ -4,7 +4,7 @@ export default function ContainerIndexer({ url, tags, cloudinaryId, hideChat }) 
   const navigate = useNavigate();
 
   return (
-    <div className='bg-[#d1e3f9] flex flex-col flex-grow p-6 w-full xl:w-7/12'>
+    <div className='bg-[#d1e3f9] overflow-scroll h-full flex flex-col flex-grow p-6 w-full xl:w-7/12'>
       <p className='font-main text-2xl'>VIDEO : </p>
       <video className='h-[280px] w-auto bg-darker rounded' controls>
         <source src={url} type="video/mp4" />
@@ -13,7 +13,7 @@ export default function ContainerIndexer({ url, tags, cloudinaryId, hideChat }) 
       <br />
       <p className='font-main text-2xl'>List Tag : </p>
       <div className='flex flex-wrap gap-2'>
-        {tags.map(el => <p key={el} className='font-main text-xl bg-white rounded p-2'>#{el}</p>)}
+        {tags.map(el => <p key={el} className='font-main text-xl bg-white rounded p-[5px]'>#{el}</p>)}
       </div>
       <br />
       {

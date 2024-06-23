@@ -25,7 +25,7 @@ export default function ContainerChat({ chats, url, isLoading }) {
             return (
               <div key={i} className='my-1.5 flex self-end xl:max-w-[60%] bg-white rounded-xl p-3'>
                 <div className='cursor-pointer flex gap-2 items-center'>
-                  <img width="40" height="40" src="/json.png" />
+                  <img width="40" height="40" src="/json.webp" />
                   <p className='font-main'>GENERATE.JSON</p>
                 </div>
               </div>
