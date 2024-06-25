@@ -1,6 +1,5 @@
 import { Button } from "flowbite-react";
 import { useNavigate } from "react-router-dom";
-
 export default function Header({ page }) {
   const navigate = useNavigate()
   return (

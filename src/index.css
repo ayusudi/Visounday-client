@@ -40,13 +40,6 @@ main {
   background-position: center;
 }
 
-#sociallogin {
-  background: url(/pattern.webp) no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
-}
-
 #logout:hover {
   text-decoration-color: #ffa500;
 }
@@ -58,7 +51,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(/background.webp) no-repeat;
+    background: url(https://res.cloudinary.com/di1kz1kvd/image/upload/v1719342355/visounday/background_sri8xg.webp) no-repeat;
     background-size: contain;
     width: 1224px;
     height: 750px;

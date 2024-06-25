@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from "react-router-dom";
 import axios from 'axios';
-
 import Footer from "../components/Footer";
 import Header from '../components/Header';
 import ContainerTagImage from '../components/ContainerTagImage';
@@ -15,7 +14,7 @@ export default function Page() {
   useEffect(() => {
     axios({
       method: "GET",
-      url: "https://visounday2024.azurewebsites.net/videos/" + cloudinary_id,
+      url: "https://visoundayserver.azurewebsites.net/videos/" + cloudinary_id,
       headers: {
         access_token: localStorage.getItem("access_token")
       }

@@ -79,7 +79,7 @@ export default function FormVideoUpload({ fetchVideos }) {
       setGenerating(true);
       let { data } = await axios({
         method: "POST",
-        url: "https://visounday2024.azurewebsites.net/videos",
+        url: "https://visoundayserver.azurewebsites.net/videos",
         data: {
           url: videoUploadedUrl,
           cloudinaryId: videoPublicId

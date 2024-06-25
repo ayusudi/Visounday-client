@@ -14,7 +14,7 @@ export default function Page() {
     try {
       let { data } = await axios({
         method: "GET",
-        url: "https://visounday2024.azurewebsites.net/videos",
+        url: "https://visoundayserver.azurewebsites.net/videos",
         headers: {
           access_token: localStorage.getItem("access_token")
         }

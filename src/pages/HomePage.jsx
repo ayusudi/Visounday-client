@@ -6,7 +6,6 @@ import {
   OAuthProvider,
   signInWithPopup,
 } from "firebase/auth";
-
 import Footer from "../components/Footer";
 import Banner from "../components/Banner"
 import { useState } from "react";
@@ -14,7 +13,7 @@ import SwallError from "../components/SwallError";
 
 export default function Page() {
   const [loadingSignIn, setLoadingSignIn] = useState(false)
-  const baseUrl = 'https://visounday2024.azurewebsites.net';
+  const baseUrl = 'https://visoundayserver.azurewebsites.net';
   const auth = getAuth(app);
   const microsoftProvider = new OAuthProvider('microsoft.com'); // Specify 'microsoft.com' here
   const navigate = useNavigate()
