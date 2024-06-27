@@ -18,12 +18,13 @@ export default function Page() {
 
   const askGPT = (first = false) => {
     if (first || input.length) {
+      if (input.length) setChats([...chats, { role: "user", content: input, type: "input-text" }])
       let content = input
       setInput('')
       setIsLoading(true)
       axios({
         method: "POST",
-        url: "https://visounday2024.azurewebsites.net/videos/" + cloudinary_id + '/gpt',
+        url: "https://visoundayserver.azurewebsites.net/videos/" + cloudinary_id + '/gpt',
         headers: {
           access_token: localStorage.getItem("access_token")
         },
@@ -46,7 +47,7 @@ export default function Page() {
   useEffect(() => {
     axios({
       method: "GET",
-      url: "https://visounday2024.azurewebsites.net/videos/" + cloudinary_id,
+      url: "https://visoundayserver.azurewebsites.net/videos/" + cloudinary_id,
       headers: {
         access_token: localStorage.getItem("access_token")
       }

@@ -51,7 +51,7 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: url(https://res.cloudinary.com/di1kz1kvd/image/upload/v1719342355/visounday/background_sri8xg.webp) no-repeat;
+    background: url(/background.webp) no-repeat;
     background-size: contain;
     width: 1224px;
     height: 750px;
