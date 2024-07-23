@@ -29,19 +29,19 @@
 ### Screenshots 
 
 - Landing Page 
-![landingPage](./screenshots/landingPage.webp)
+![landingPage](./screenshots/landingPage.png)
 - Use Case Page 
-![useCasePage](./screenshots/useCasePage.webp) 
+![useCasePage](./screenshots/useCasePage.png) 
 - Terms & Conditions Page
-![tnc](./screenshots/tnc.webp)
+![tnc](./screenshots/tnc.png)
 - Dashboard Page 
-![dashboard](./screenshots/dashboard.webp)
+![dashboard](./screenshots/dashboard.png)
 - Chat Page 
-![chat](./screenshots/chat.webp)
+![chat](./screenshots/chat.png)
 - Video Indexer Enhancer Page
-![video](./screenshots/enhancer.webp)
+![video](./screenshots/enhancer.png)
 - Not Found Page
-![notfound](./screenshots/notfoundPage.webp)
+![notfound](./screenshots/notfoundPage.png)
 
 ### How to Run the Application
 
